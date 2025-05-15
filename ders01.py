@@ -67,3 +67,26 @@ z = "123"
 print(x)  # Merhaba
 print(y)  # Python
 print(z)  # 123
+# list veri türü
+x = [1, 2, 3] # Liste İçinde Tam Sayılar
+y = ["a", "b", "c"] # Liste İçinde Karakterler
+z = [1, "a", 3.14] # Liste İçinde Farklı Veri Türleri
+print(x)  # [1, 2, 3]
+print(y)  # ['a', 'b', 'c']
+print(z)  # [1, 'a', 3.14]
+print(type(x))  # <class 'list'> tipini gösterir
+print(type(y))  # <class 'list'> tipini gösterir
+print(type(z))  # <class 'list'> tipini gösterir
+# tuple veri türü
+x = (1, 2, 3) # Demet İçinde Tam Sayılar
+y = ("a", "b", "c") # Demet İçinde Karakterler
+z = (1, "a", 3.14) # Demet İçinde Farklı Veri Türleri
+print(x)  # (1, 2, 3)
+print(y)  # ('a', 'b', 'c')
+print(z)  # (1, 'a', 3.14)
+print(type(x))  # <class 'tuple'> tipini gösterir
+print(type(y))  # <class 'tuple'> tipini gösterir
+print(type(z))  # <class 'tuple'> tipini gösterir
+# Tuple'lar, listelere benzer, ancak değiştirilemezler. Yani bir tuple oluşturduktan sonra içeriğini değiştiremezsiniz.
+# Tuple'lar, parantez () içinde tanımlanır ve virgülle ayrılmış değerlerden oluşur.
+# Tuple'lar, listelere göre daha hafif ve hızlıdır, bu nedenle bazı durumlarda tercih edilebilirler.
